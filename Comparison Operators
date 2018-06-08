@@ -1,0 +1,25 @@
+#Comparson Operators 
+#>
+#<
+#>=
+#=<
+#==
+#!=
+
+a = 7 > 3
+print a
+
+x = 8 
+y = 5
+b = x >= y
+print b
+
+c = "Hello" == "Hello"
+#single or double quotes dont matter it's the text that is compared
+#Single equal sign is assignment of a value to a variable but the double equal sign is tell if the leftt and the right are equal to each other
+print c
+
+d = 20.6 <= 18.3 
+print d
+
+print (a and b) or (c and (not d))
